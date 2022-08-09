@@ -1,0 +1,18 @@
+<div class="content-search">
+  <div class="search d-flex flex-column justify-content-center">
+    <form  class="container text-center form-search">
+      <div class="mb-3 text-center">
+        <label for="Food" class="form-label">FOOD COUNTER</label>
+        <input type="text" [(ngModel)]="foodSearch"  class="form-control input-search"
+          placeholder="search Food" name="foodName">
+      </div>
+      <button type="submit"  *ngIf='foodSearch' (click)="onSearch(foodSearch)" class=" btn btn-primary btn-search">Buscar</button>
+    </form>
+  </div>
+  
+  <div class="food-container">
+    <ng-container *ngFor="let food of foods$ | async">
+      <app-foodlist [foods]="food"></app-foodlist>
+    </ng-container>
+    </div>
+</div>

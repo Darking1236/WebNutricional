@@ -1,0 +1,15 @@
+
+
+.food{
+    font-family: Arial, Helvetica, sans-serif;    
+    color: #000;
+    padding: 20px;
+    border-top: 2px solid #031d44;
+}
+
+
+
+.food:hover{
+    cursor: pointer;
+    background-color: rgb(232, 226, 226);
+}

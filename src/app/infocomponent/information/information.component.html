@@ -1,0 +1,19 @@
+<table class="container table table-striped  caption-top mt-5">
+    <caption>Lista de alimentos</caption>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre del alimento</th>
+        <th scope="col">Porcion</th>
+        <th scope="col">Calorias</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider ">
+      <tr *ngFor="let food of foods$ | async; index as id">
+        <th scope="row">{{id+1}}</th>
+        <td>{{food.Display_Name}}</td>
+        <td>{{food.Portion_Default}}</td>
+        <td>{{food.Calories}}</td>
+      </tr>
+    </tbody>
+  </table>

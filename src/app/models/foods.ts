@@ -1,0 +1,28 @@
+export interface Foods{
+  Food_Code:number
+  Display_Name:string
+  Portion_Default:number
+  Portion_Amount:number
+  Portion_Display_Name:string
+  Factor:number
+  Increment:number
+  Multiplier:number
+  Grains:number
+  Whole_Grains:number
+  Vegetables:number
+  Orange_Vegetables:number
+  Drkgreen_Vegetables:number
+  Starchy_vegetables:number
+  Other_Vegetables:number
+  Fruits:number
+  Milk:number
+  Meats:number
+  Soy:number
+  Drybeans_Peas:number
+  Oils:number
+  Solid_Fats:number
+  Added_Sugars:number
+  Alcohol:number
+  Calories:number
+  Saturated_Fats:number
+}

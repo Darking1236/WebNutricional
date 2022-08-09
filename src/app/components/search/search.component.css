@@ -1,0 +1,25 @@
+
+.search{
+    width: 800px;
+}
+.btn-search{
+    width: 30%;
+}
+.form-search{
+    background-color: #44a75e;
+    padding: 20px;
+    border-radius: 10px;
+    color:#fff;
+}
+
+.form-label{
+    font-size: 40px;
+}
+
+.content-search{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
